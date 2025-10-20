@@ -1,0 +1,6 @@
+flask
+flask-cors
+pillow
+openai
+ffmpeg-python
+pygame

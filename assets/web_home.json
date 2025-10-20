@@ -1,0 +1,12 @@
+{
+    "web_title": "Trang chủ",
+    "welcome": "😊😊😊 Welcome to my blog! 😊😊😊",
+    "maxim": "Some memories are unforgettable, remaining ever vivid and heartwarming!<br>Có những kỉ niệm không bao giờ quên được, luôn luôn in sâu trong tâm trí và làm ấm lòng người!<br>- Joseph B. Wirthlin -",
+    "image": "/assets/images/anhlop2.jpg",
+    "audio": "/assets/musics/Tetoris - Instrumental Only (Vocaloid Tetris Music).mp3",
+    "video": {
+        "src": "/assets/videos/Windows XP Commercial - Yes You Can (Remastered To 1080p).mp4",
+        "type": "video/mp4"
+    
+    }
+}

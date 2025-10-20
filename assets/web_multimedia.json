@@ -1,0 +1,230 @@
+{
+  "web_title": "Đa phương tiện",
+  "web_trans": {
+    "video": "Video",
+    "memories": "Kỉ niệm"
+  },
+  "type": {
+    "video": {
+      "web_title": "Video",
+      "RKYwo9iA4P": {
+        "title": "Genshin Impact - Nod-Krai - Theme Song",
+        "thumbnail": "/assets/images/video/gi-nk.png",
+        "src": "/Video/genshin/nod-krai/genshin-music.m3u8",
+        "age": "",
+        "description": "Nguồn: <a href='https://www.youtube.com/watch?v=RuXa_yxZMGI' alt='Link Youtube' target=\"_blank\" style='text-decoration: none'>Youtube</a>",
+        "aspectratio": "16/9",
+        "logo_on": "false",
+        "date": "22/9/2025",
+        "subtitles": {
+          "vi": {
+            "srclang": "vi",
+            "label": "Tiếng Việt",
+            "src": "/assets/subtitles/videos/gi-nk.vtt",
+            "default": true
+          }
+        }
+      },
+      "bnEMjxRGCb": {
+        "title": "Demon Slayer - Hashira Training Arc - 08",
+        "thumbnail": "/assets/images/video/08.png",
+        "src": "/assets/Demon%20Slayer/Hashira%20Training/ep8/kny-s5-ep8.m3u8",
+        "age": "THANH GƯƠM DIỆT QUỶ - PHẦN ĐẠI TRỤ ĐẶC HUẤN - TẬP 8",
+        "description": "<p>Tải về: <a href='https://054zr-my.sharepoint.com/:f:/g/personal/trieudoquoc_054zr_onmicrosoft_com/EjKhxcn8le1FjOLjLkR9ciwBN_-7gk23favvWpqG4JMq6Q?e=GgeMQY' target='_blank' id='onedrive-download'><img src='/Images/onedrive.png' alt='Onedrive' width='28'>Onedrive</a></p>",
+        "aspectratio": "16/9",
+        "logo_on": "false",
+        "date": "01/09/2025",
+        "subtitles": [
+          {
+            "label": "Tiếng Việt",
+            "srclang": "vi",
+            "src": "/assets/Demon%20Slayer/Hashira%20Training/subtitles/kny-s5-08.vtt",
+            "default": true
+          }
+        ]
+      },
+      "w3ag7iUiXu": {
+        "title": "Genshin Impact Cloud - 26/07/2025",
+        "src": "/Video/genshin/gic-26072025/index.m3u8",
+        "description": "",
+        "date": "26/07/2025",
+        "thumbnail": "/Video/genshin/gic-26072025/gic26072025.png",
+        "age": "GENSHIN IMPACT - VŨ ĐIỆU CỦA TỘI LỖI - MÀN 1"
+      },
+      "KLDbOoLwnK": {
+        "title": "Lord of the Misteries - 04",
+        "thumbnail": "/assets/images/video/lotm04.png",
+        "src": "/assets/Lord%20of%20the%20Mistery/videos/ep4/lotm-ep4.m3u8",
+        "age": "TẬP 4 - CHÚA TỂ HUYỀN BÍ: QUYỂN TÊN HỀ",
+        "logo_on": "false",
+        "description": "",
+        "date": "31/07/2025",
+        "aspectratio": "21/9",
+        "subtitles": [
+          {
+            "label": "Tiếng Việt",
+            "srclang": "vi",
+            "src": "/assets/subtitles/videos/lom-ep9.vtt",
+            "default": true
+          }
+        ]
+      },
+      "1mdspZZWHw": {
+        "title": "OP - Miss Kobayashi's Maid Dragon S",
+        "src": "/Video/Miss%20Kobayashi%20Maid%20Dragon%20S/OP-miss-kobayashi's-maid-dragon-S.m3u8",
+        "description": "",
+        "date": "02/08/2025",
+        "thumbnail": "/assets/images/video/S.png",
+        "age": "Nhạc tự dịch"
+      },
+      "ZEiQ7Ag43q": {
+        "title": "GI - Geforce Now",
+        "src": "/Video/genshin/gen/index.m3u8",
+        "description": "",
+        "age": "GENSHIN IMPACT",
+        "date": "22/02/2025",
+        "thumbnail": "/assets/images/video/g.png"
+      },
+      "wKxzIZ5aIP": {
+        "title": "08/03/2025 - Hậu trường",
+        "src": "/Video/8-3-2025/index.m3u8",
+        "description": "Behind the scenes...",
+        "thumbnail": "/assets/images/video/83im.png",
+        "date": "08/03/2025"
+      },
+      "nGQtXhr2qZ": {
+        "title": "Trailer - Dược sư tự sự S2 ",
+        "src": "/Video/kusuriya/s2-trailer-2/index.m3u8",
+        "date": "17/12/2024",
+        "description": "",
+        "thumbnail": "/assets/images/video/tb1.png"
+      },
+      "ZeONfjzjev": {
+        "title": "Geforce Now - GI - 04/11/2024",
+        "src": "/Video/genshin/geforcenow-gi/geforcenow-gi-04112024-vid.m3u8",
+        "description": "",
+        "date": "04/11/2024",
+        "thumbnail": "/assets/images/video/n-gi.png"
+      },
+      "O70L5KWspS": {
+        "title": "PV - Dược sư tự sự S2",
+        "src": "/Video/kusuriya/s2-trailer/kusuriya-no-hitorigoto-s2-trailer.m3u8",
+        "description": "",
+        "date": "29/10/2024",
+        "thumbnail": "/assets/images/video/kusuriya-tr-s2.png"
+      },
+      "t6q6Tm0BvA": {
+        "title": "Gacha - GI - 20/10/2024",
+        "src": "/Video/genshin/gacha/gi-20-10-2024.m3u8",
+        "description": "",
+        "date": "18/02/2025",
+        "thumbnail": "/assets/images/video/gi-gacha.png"
+      },
+      "as5qvKirrx": {
+        "title": "OP - The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+        "src": "/Video/OP-The-Most-Notorious-Talker-Runs-the-World's-Greatest-Clan/the-most-notorious-Talker-runs-the-world's-greatest-clan.m3u8",
+        "description": "",
+        "logo_on": "false",
+        "date": "18/02/2025",
+        "subtitles": {
+          "en": {
+            "label": "Tiếng Anh",
+            "src": "/assets/subtitles/videos/OP-The-Most-Notorious-Talker-Runs-the-World's-Greatest-Clan.vtt",
+            "srclang": "en"
+          },
+          "vi": {
+            "label": "Tiếng Việt",
+            "src": "/assets/subtitles/videos/OP-The-Most-Notorious-Talker-Runs-the-World's-Greatest-Clan(vi).vtt",
+            "srclang": "vi"
+          }
+        },
+        "thumbnail": "/assets/images/video/op-a.png"
+      },
+      "ZOY9dNccCJ": {
+        "title": "Tách chiết DNA",
+        "src": "/Video/K62/12e-project/12e-projectsinh.m3u8",
+        "description": "",
+        "date": "18/02/2025",
+        "thumbnail": "/assets/images/video/12e-biology.png"
+      },
+      "yIHrO0vUc6": {
+        "title": "Tổ 2 - AI và ứng dụng",
+        "src": "/Video/K62/12E-to2/12e-to2-ai-va-ung-dung.m3u8",
+        "description": "",
+        "date": "18/02/2025",
+        "thumbnail": "/assets/images/video/12e-ai.png"
+      },
+      "hIhAe9qTG9": {
+        "title": "[Made by AI] Ronaldo Dances Go-Getters",
+        "src": "/Video/made-by-ai/ronaldo/index.m3u8",
+        "description": "Created by Viggle.ai",
+        "date": "18/02/2025",
+        "thumbnail": "/assets/images/video/ronaldo.png"
+      },
+      "AhZcKfhYMD": {
+        "title": "8-3-2024 - Hậu trường",
+        "src": "/Video/8-3-2024/8-3-2024.m3u8",
+        "description": "Behind the scenes...",
+        "date": "08/03/2024",
+        "thumbnail": "/assets/images/video/08-03-2024.png"
+      },
+      "McaXRfjoR6": {
+        "title": "10E - Liên hoan năm mới",
+        "src": "/Video/K62/10E-lien-hoan-nam-moi/10e-nam-moi.m3u8",
+        "description": "",
+        "date": "31/01/2023",
+        "thumbnail": "/assets/images/video/newyear.png"
+      },
+      "MvUOB7lm02": {
+        "title": "11E - Thực hành Sinh",
+        "src": "/Video/K62/11E-project/11e-sinh.m3u8",
+        "date": "16/03/2024",
+        "logo_on": "false",
+        "description": "",
+        "thumbnail": "/assets/images/video/biology-11e-2.png"
+      },
+      "QEaHzY0Kys": {
+        "title": "[Made by AI] Hoạt hình Rùa và Thỏ",
+        "src": "/Video/cartoon/index.m3u8",
+        "description": "",
+        "date": "23/09/2025",
+        "thumbnail": "/assets/images/video/cartoon.png"
+      },
+      "SACwTUUKDV": {
+        "title": "OP - BATA",
+        "src": "/Video/bluearchivetheanimation/OP/S/index.m3u8",
+        "description": "Nhạc mở đầu TV Anime Blue Archive The Animation",
+        "age": "OP - BLUE ARCHIVE THE ANIMATION",
+        "date": "24/04/2024",
+        "thumbnail": "/assets/images/video/blop.png"
+      },
+      "LCfDgex2Fn": {
+        "title": "Miku",
+        "src": "/Video/miku/index.m3u8",
+        "description": "",
+        "date": "18/02/2025",
+        "subtitles": {
+          "en": {
+            "label": "Tiếng Anh",
+            "src": "/Video/Anamanaguchi%20-%20Miku%20ft.%20Hatsune%20Miku.vtt",
+            "srclang": "en",
+            "default": true
+          }
+        },
+        "thumbnail": "/assets/images/video/miku.png"
+      },
+      "Z11qO7SJFi": {
+        "title": "eill - Finale",
+        "age": "FINALE - EILL",
+        "src": "/Video/eill-finale/index.m3u8",
+        "description": "",
+        "logo_on": "false",
+        "date": "25/05/2024",
+        "thumbnail": "/assets/images/video/finale.png"
+      }
+    },
+    "memories": {
+      "web_title": "Kỉ niệm"
+    }
+  }
+}
