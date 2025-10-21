@@ -198,6 +198,21 @@
         "date": "24/04/2024",
         "thumbnail": "/assets/images/video/blop.png"
       },
+      "JPBsLzOC3K": {
+        "title": "ED - BATA",
+        "src": "/Video/bluearchivetheanimation/ED/NS/bataed.m3u8",
+        "description": "Nhạc kết thúc TV Anime Blue Archive The Animation",
+        "age": "ED - BLUE ARCHIVE THE ANIMATION",
+        "date": "17/05/2024",
+        "subtitles": {
+          "vi": {
+            "label": "Tiếng Việt",
+            "src": "/Video/bluearchivetheanimationed.vtt",
+            "srclang":"vi"
+          }
+        },
+        "thumbnail": "/assets/images/video/edbata.png"
+      },
       "LCfDgex2Fn": {
         "title": "Miku",
         "src": "/Video/miku/index.m3u8",
