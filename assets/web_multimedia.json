@@ -77,6 +77,21 @@
         "thumbnail": "/assets/images/video/S.png",
         "age": "Nhạc tự dịch"
       },
+      "2MQVDAxur1": {
+        "title": "The Apothecary Diaries - S2 - EP22",
+        "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/assets/The%20Apothecary%20Daries/videos/s2/ep22/tad-s2-ep22.m3u8",
+        "description": "",
+        "date": "15/06/2025",
+        "thumbnail": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/assets/The%20Apothecary%20Daries/images/img46.png",
+        "subtitles": {
+          "vi": {
+            "srclang": "vi",
+            "label":"Tiếng Việt",
+            "src": "https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main/assets/The%20Apothecary%20Daries/subtitles/ep46-vi.vtt"
+          }
+        },
+        "age": "DƯỢC SƯ TỰ SỰ - TẬP 46"
+      },
       "ZEiQ7Ag43q": {
         "title": "GI - Geforce Now",
         "src": "/Video/genshin/gen/index.m3u8",
