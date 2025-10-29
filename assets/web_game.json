@@ -21,6 +21,22 @@
     "zeroone": {
       "title": "Zero One",
       "img": "assets/images/games/zeroone.png"
+    },
+    "ooo": {
+      "title": "OOO",
+      "img": "assets/images/games/ooo.png"
+    },
+    "w": {
+      "title": "Double",
+      "img": "assets/images/games/w.png"
+    },
+    "geats": {
+      "title": "Geats",
+      "img": "assets/images/games/geats.png"
+    },
+    "ghost": {
+      "title": "Ghost",
+      "img": "assets/images/games/ghost.png"
     }
   }
 }
