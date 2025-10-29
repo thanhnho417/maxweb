@@ -4,39 +4,39 @@
     "game_publisher_title": "Kamen Rider Flash Belt by cometcomics",
     "build": {
       "title": "Build",
-      "img": "assets/images/games/build.png"
+      "thumbnail": "assets/images/games/build.png"
     },
     "wizard": {
       "title": "Wizard",
-      "img": "assets/images/games/wizard.png"
+      "thumbnail": "assets/images/games/wizard.png"
     },
     "exaid": {
       "title": "Ex-aid",
-      "img": "assets/images/games/exaid.png"
+      "thumbnail": "assets/images/games/exaid.png"
     },
     "zio": {
       "title": "Zi-O",
-      "img": "assets/images/games/zio.png"
+      "thumbnail": "assets/images/games/zio.png"
     },
     "zeroone": {
       "title": "Zero One",
-      "img": "assets/images/games/zeroone.png"
+      "thumbnail": "assets/images/games/zeroone.png"
     },
     "ooo": {
       "title": "OOO",
-      "img": "assets/images/games/ooo.png"
+      "thumbnail": "assets/images/games/ooo.png"
     },
     "w": {
       "title": "Double",
-      "img": "assets/images/games/w.png"
+      "thumbnail": "assets/images/games/w.png"
     },
     "geats": {
       "title": "Geats",
-      "img": "assets/images/games/geats.png"
+      "thumbnail": "assets/images/games/geats.png"
     },
     "ghost": {
       "title": "Ghost",
-      "img": "assets/images/games/ghost.png"
+      "thumbnail": "assets/images/games/ghost.png"
     }
   }
 }
