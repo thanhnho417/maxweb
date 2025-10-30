@@ -46,7 +46,40 @@ def page_web_content():
     elif page_tab == 'introduce':
         return jsonify(web_content)
     elif page_tab == 'game':
-        return jsonify(web_content)
+        game_publisher = request.args.get('publisher')
+        if not game_publisher: 
+            publisher_game_item = {
+                'web_title': web_content.get('web_title', '')
+            }
+            for i, j in web_content.items():
+                web_game_publisher = {}
+                game_publisher_item = {}
+                if i in('web_title'): continue
+                if not isinstance(j, dict): continue
+                web_game_publisher[i] = {
+                    'game_publisher_title': j.get('game_publisher_title', '')
+                }
+                print(j)
+                for m,n in j.items():
+                    print(n)
+                    if not isinstance(n, dict): continue
+                    game_publisher_item[m] = {
+                        'title': n.get('title', ""),
+                        'thumbnail': n.get('thumbnail', '')
+                    }
+                    web_game_publisher[i].update(game_publisher_item)
+                publisher_game_item.update(web_game_publisher)
+            
+                    
+                    
+            
+            
+            return jsonify(publisher_game_item)
+        else:
+            game_publisher_id = request.args.get('id')
+            if not game_publisher_id: return web_content.get(game_publisher, '')
+            else:
+                return (web_content.get(game_publisher, "")).get(game_publisher_id, '')
     elif page_tab == 'multimedia':
         mul_type = request.args.get('type')
         if not mul_type: 

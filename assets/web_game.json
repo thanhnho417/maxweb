@@ -1,14 +1,16 @@
 {
   "web_title": "Game",
   "cometcomics": {
-    "game_publisher_title": "Kamen Rider Flash Belt by cometcomics",
+    "game_publisher_title": "Kamen Rider Flash Belt by Cometcomics",
     "build": {
       "title": "Build",
-      "thumbnail": "/assets/images/games/build.png"
+      "thumbnail": "/assets/images/games/build.png",
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/Flash%20Belt%20Build%20Rebuild.swf"
     },
     "wizard": {
       "title": "Wizard",
-      "thumbnail": "/assets/images/games/wizard.png"
+      "thumbnail": "/assets/images/games/wizard.png",
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/Flash%20Belt%20Build%20Rebuild.swf"
     },
     "exaid": {
       "title": "Ex-aid",
