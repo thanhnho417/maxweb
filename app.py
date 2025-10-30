@@ -69,12 +69,7 @@ def page_web_content():
                     }
                     web_game_publisher[i].update(game_publisher_item)
                 publisher_game_item.update(web_game_publisher)
-            
-                    
-                    
-            
-            
-            return jsonify(publisher_game_item)
+            return publisher_game_item
         else:
             game_publisher_id = request.args.get('id')
             if not game_publisher_id: return web_content.get(game_publisher, '')
