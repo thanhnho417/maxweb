@@ -72,7 +72,20 @@ def page_web_content():
             return publisher_game_item
         else:
             game_publisher_id = request.args.get('id')
-            if not game_publisher_id: return web_content.get(game_publisher, '')
+            if not game_publisher_id:
+                game_list = web_content.get(game_publisher, '')
+                web_game_publisher_item = {
+                    'game_publisher_title': game_list.get('game_publisher_title', '')
+                }
+                game_publisher_item = {}
+                for i, j in game_list.items():
+                    if not isinstance(j, dict): continue
+                    game_publisher_item[i] = {
+                        'title': j.get('title', ''),
+                        'thumbnail': j.get('thumbnail', '')    
+                    }
+                    web_game_publisher_item.update(game_publisher_item)
+                return web_game_publisher_item
             else:
                 return (web_content.get(game_publisher, "")).get(game_publisher_id, '')
     elif page_tab == 'multimedia':
