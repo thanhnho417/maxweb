@@ -5,41 +5,47 @@
     "build": {
       "title": "Build",
       "thumbnail": "/assets/images/games/build.png",
-      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/Flash%20Belt%20Build%20Rebuild.swf"
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_build.swf"
     },
     "wizard": {
       "title": "Wizard",
       "thumbnail": "/assets/images/games/wizard.png",
-      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/Flash%20Belt%20Build%20Rebuild.swf"
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_wizard.swf"
     },
     "exaid": {
       "title": "Ex-aid",
       "thumbnail": "/assets/images/games/exaid.png",
-      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/Flash%20Belt%20Build%20Rebuild.swf"
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_wizard.swf"
     },
     "zio": {
       "title": "Zi-O",
-      "thumbnail": "/assets/images/games/zio.png"
+      "thumbnail": "/assets/images/games/zio.png",
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_ZI-O.swf"
     },
     "zeroone": {
       "title": "Zero One",
-      "thumbnail": "/assets/images/games/zeroone.png"
+      "thumbnail": "/assets/images/games/zeroone.png",
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_zero_one.swf"
     },
     "ooo": {
       "title": "OOO",
-      "thumbnail": "/assets/images/games/ooo.png"
+      "thumbnail": "/assets/images/games/ooo.png",
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_OOO.swf"
     },
     "w": {
       "title": "Double",
-      "thumbnail": "/assets/images/games/w.png"
+      "thumbnail": "/assets/images/games/w.png",
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_double.swf"
     },
     "geats": {
       "title": "Geats",
-      "thumbnail": "/assets/images/games/geats.png"
+      "thumbnail": "/assets/images/games/geats.png",
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_geats.swf"
     },
     "ghost": {
       "title": "Ghost",
-      "thumbnail": "/assets/images/games/ghost.png"
+      "thumbnail": "/assets/images/games/ghost.png",
+      "src": "/Game/Kamen%20Rider%20Flash%20Belt%20By%20CometComics/flash_belt_ghost.swf"
     }
   }
 }
