@@ -1739,12 +1739,16 @@
             "web_ani_color": "white",
             "web_ani_text_shadow": "1px 1px 1px rgb(50,50,50)",
             "web_ani_link_cr": {
-              "ani_one_asia": {
-                "get_link": "https://www.youtube.com/playlist?list=PLxSscENEp7JizHNDj5kgVbs6qr3Bw95ie",
-                "get_title": "Ani-One Asia"
+              "tv360": {
+                "get_link": "https://tv360.vn/movie/thanh-guom-diet-quy-ky-vien-tran-demon-slayer-kimetsu-no-yaiba-entertainment-district-arc-tap-1?m=17845&e=922783",
+                "get_title": "TV360"
+              },
+              "fptplay": {
+                "get_link": "https://fptplay.vn/xem-video/thanh-guom-diet-quy-phan-3-ky-vien-tran-61c1429f6dc5dd8958899cd1",
+                "get_title":"FPT Play"
               }
             },
-            "web_ani_oped_iframe": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/2CLB7llrdsAvBMO9RatdKX?utm_source=generator&theme=0\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+            "web_ani_oped_iframe": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/1ZrS7eMxzm9AJMyYKjLsmW?utm_source=generator\" width=\"100%\" height=\"380\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
           },
           "lifewithanordinaryguywhoreincarnatedintoatotalfantasyknockout": {
             "web_ani_title": "Fantasy Bishoujo Juniku Ojisan to",
