@@ -1,21 +1,14 @@
-from flask import Flask, request,Response, jsonify, render_template_string
+from flask import Flask, request, jsonify
 import json
 import os
-from dotenv import load_dotenv
-from msal import ConfidentialClientApplication
 from flask_cors import CORS
 from datetime import datetime
-import requests
-from urllib.parse import quote_plus
 app = Flask(__name__)
 CORS(app)
 app.config["JSON_AS_ASCII"] = False
 app.config['JSON_SORT_KEYS'] = False 
 mediaserver = 'https://raw.githubusercontent.com/thanhnho417/up/refs/heads/main'
 
-TENANT_ID = os.getenv('TENANT_ID')
-CLIENT_ID = os.getenv('TENANT_ID')
-CLIENT_SCREET = os.getenv('TENANT_ID')
 
 def web_load_json(file):
     datadir = os.path.dirname(__file__)
@@ -26,74 +19,6 @@ def web_load_json(file):
 @app.route('/')
 def welcome_to_my_server():
     return jsonify({'title': 'Xin chao may chau'})
-
-def get_access_token():
-    web_authority = f'https://login.microsoftonline.com/{TENANT_ID}'
-    web_scopes = ['https://graph.microsoft.com/.default']
-    app_msal = ConfidentialClientApplication(CLIENT_ID, authority=web_authority, client_credential=CLIENT_SCREET)
-    web_result = app_msal.acquire_token_silent(web_scopes, account=None)
-    if not web_result:
-        web_result = app_msal.acquire_token_for_client(scopes=web_scopes)
-    if 'access_token' in web_result:
-        return web_result['access_token']
-    else:
-        raise Exception(web_result.get('error_description'))
-
-def stream_drive_item_content(access_token, drive_id=None, item_id=None, site_id=None):
-    headers = {"Authorization": f"Bearer {access_token}"}
-    if drive_id and item_id:
-        url = f"https://graph.microsoft.com/v1.0/drives/{quote_plus(drive_id)}/items/{quote_plus(item_id)}/content"
-    elif site_id and item_id:
-        url = f"https://graph.microsoft.com/v1.0/sites/{quote_plus(site_id)}/drive/items/{quote_plus(item_id)}/content"
-    else:
-        raise ValueError("Provide drive_id+item_id or site_id+item_id")
-    with requests.get(url, headers=headers, stream=True) as r:
-        r.raise_for_status()
-        for chunk in r.iter_content(chunk_size=8192):
-            if chunk:
-                yield chunk
-
-@app.route('/get_access_file_from_wtf')
-def getfile():
-    drive_id = request.args.get("drive_id")
-    site_id = request.args.get("site_id")
-    item_id = request.args.get("item_id")
-    download = request.args.get("download") == "1"
-    if not item_id or (not drive_id and not site_id):
-        return jsonify({"error": "Provide item_id and either drive_id or site_id"}), 400
-
-    try:
-        token = get_access_token()
-    except Exception as e:
-        return jsonify({"error": "failed to get token", "detail": str(e)}), 500
-
-    # Lấy metadata file (để biết tên và MIME)
-    headers = {"Authorization": f"Bearer {token}"}
-    if drive_id:
-        metadata_url = f"https://graph.microsoft.com/v1.0/drives/{quote_plus(drive_id)}/items/{quote_plus(item_id)}"
-    else:
-        metadata_url = f"https://graph.microsoft.com/v1.0/sites/{quote_plus(site_id)}/drive/items/{quote_plus(item_id)}"
-
-    try:
-        meta_resp = requests.get(metadata_url, headers=headers)
-        meta_resp.raise_for_status()
-        meta = meta_resp.json()
-        filename = meta.get("name", "file")
-        mime = meta.get("file", {}).get("mimeType", "application/octet-stream")
-    except Exception:
-        filename = "file"
-        mime = "application/octet-stream"
-
-    response = Response(
-        stream_drive_item_content(token, drive_id=drive_id, item_id=item_id, site_id=site_id),
-        mimetype=mime
-    )
-    if download:
-        response.headers["Content-Disposition"] = f'attachment; filename="{filename}"'
-    else:
-        response.headers["Content-Disposition"] = f'inline; filename="{filename}"'
-    response.headers["Cache-Control"] = "private, max-age=60"
-    return response
 
 @app.route('/getpageinfo')
 def page_web_content():
