@@ -1,0 +1,25 @@
+{
+    "web_title": "Chọn mùa phát sóng",
+    "web_trans": {
+        "winter": "Mùa đông",
+        "spring": "Mùa xuân",
+        "summer": "Mùa hạ",
+        "autumn": "Mùa thu"
+    },
+    "season": {
+        "winter": {},
+        "spring": {},
+        "summer": {},
+        "autumn": {}
+    },
+    "tab": {
+        "anime": {
+            "tab": "Anime",
+            "query": "?p=anime"
+        },
+        "2024": {
+            "tab": "2024",
+            "query": "&y=2024"
+        }
+    }
+}

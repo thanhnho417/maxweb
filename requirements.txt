@@ -5,3 +5,6 @@ openai
 ffmpeg-python
 pygame
 requests
+python-dotenv
+msal
+msgraph-sdk

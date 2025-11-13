@@ -1,3 +1,67 @@
 {
-  "web_title": "Đường link"
+  "web_title": "Đường link",
+  "social_links": {
+    "web_title": "Mạng xã hội",
+    "fb": {
+      "src": "https://www.facebook.com/profile.php?id=100051850400673",
+      "title": "Facebook cá nhân",
+      "category": "facebook"
+    },
+    "yt": {
+      "src": "https://www.youtube.com/@oce-kj2or",
+      "title": "Youtube cá nhân",
+      "category": "youtube"
+    },
+    "gh": {
+      "src": "https://github.com/thanhnho417",
+      "title": "Github cá nhân",
+      "category": "github"
+    },
+    "ig": {
+      "src": "https://www.instagram.com/dqt4107/",
+      "title": "Instagram cá nhân",
+      "category": "instagram"
+    }
+  },
+  "cloud_links": {
+    "web_title": "Cloud",
+    "od": {
+      "src": "https://054zr-my.sharepoint.com/:f:/g/personal/trieudoquoc_054zr_onmicrosoft_com/EgKss6Va7J9DhIDNRpXCbR8Bpw6H4_MCyaxhf7AjJdE09g?e=ie5e9kw",
+      "title": "Onedrive",
+      "category": "onedrive"
+    },
+    "dr": {
+      "src": "https://drive.google.com/drive/folders/1l2QXR6jOIdt1xRTWlVkDFncECMARpiMF?usp=sharing",
+      "title": "Drive",
+      "category": "ggdrive"
+    },
+    "tb": {
+      "src": "https://terabox.com/s/1ARXYrMDDtcqeZIJFSiYgSw",
+      "title": "Terabox",
+      "category": "terabox"
+    }
+  },
+  "other_links": {
+    "web_title": "Tài nguyên khác",
+    "lh": {
+      "src": "https://git.linuxholic.com/boydaihungst/AnimeSubtitles",
+      "title": "File phụ đề anime - boydaihungst",
+      "category": "linuxholic"
+    }
+  },
+  "sharing_links": {
+    "web_title": "Chia sẻ file",
+    "common_file": {
+      "web_title": "File chia sẻ chung",
+      "sharing_src": {
+        "src": "https://054zr-my.sharepoint.com/:f:/g/personal/trieudoquoc_054zr_onmicrosoft_com/EqkcDEL7XztHhW25V-vySUIBzlT829yWaLnqZkGDBluOAQ",
+        "title": "Nhấn để gửi file"
+      },
+      "access_src": {
+        "src": "https://054zr-my.sharepoint.com/:f:/g/personal/trieudoquoc_054zr_onmicrosoft_com/EqkcDEL7XztHhW25V-vySUIBaF7Qli5f_kzRvOwvEbETZw?e=QCY8jf",
+        "title": "Nhấn để truy cập dữ liệu"
+      }
+
+    }
+  }
 }
